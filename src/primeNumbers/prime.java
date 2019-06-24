@@ -6,11 +6,11 @@ public class prime {
 	public static void main(String arg[])	
 	{
 	int i,count;
-    System.out.print("Bir sayý giriniz : ");
-	Scanner sc=new Scanner(System.in);
-	int n=sc.nextInt();
-    System.out.println("1 ile "+n+" arasýndaki asal sayýlar: ");
-	for(int j=2;j<=n;j++)
+        System.out.print("Bir sayi giriniz : ");
+	Scanner primeNumberScanner =new Scanner(System.in);
+	int inputNumber=primeNumberScanner.nextInt();
+        System.out.println("1 ile "+inputNumber+" arasÄ±ndaki asal sayÄ±lar: ");
+	for(int j=2;j<=inputNumber;j++)
 	{
 	count=0;
 	for(i=1;i<=j;i++)
